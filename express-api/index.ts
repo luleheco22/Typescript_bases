@@ -9,6 +9,8 @@ app.get('/', (req, res) => {
 })
 })
 
+app.listen()
+
 app.listen(port, () => {
   console.log(`Running app listening on port ${port}`)
 })
